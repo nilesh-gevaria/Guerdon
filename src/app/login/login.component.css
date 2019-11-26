@@ -1,0 +1,27 @@
+
+.logo img { max-width: 100%;}
+h4 { font-size: 16px; color: #6d6d6d; font-weight: normal; margin: 0;}
+h3 { font-size: 18px; color: #000; margin: 0;}
+button {border-radius: 30px; padding: 6px; font-size: 17px; font-weight: 600; font-family: 'Montserrat', sans-serif;}
+
+a { color: #000; font-size: 16px; font-weight: 600; text-decoration: none;}
+a:hover {color: #6d6d6d;}
+.vertical-center {
+    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh; /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+.mt-100 { margin-top: 100px;}
+::ng-deep .mat-focused .mat-form-field-label {
+color: #000 !important;
+}
+
+::ng-deep.mat-form-field-underline {
+background-color: #dfe3e4 !important;
+} 
+
+::ng-deep.mat-form-field-ripple {
+background-color: #dfe3e4 !important;
+
+}
